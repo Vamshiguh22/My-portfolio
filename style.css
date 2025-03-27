@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #574d4d;
+    text-align: center;
+    color: #c3c1c1;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #2a1b1b;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(212, 195, 195);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Profile Section */
+.hero {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #ebcbcb;
+}
+
+/* About Section */
+.about {
+    background-color: #bea1a147;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #513b3b;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5a636d;
+}
+
+.contact ul li a:hover {
+    color: #7b92aa;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: rgb(189, 166, 166);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
